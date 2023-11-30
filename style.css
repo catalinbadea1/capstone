@@ -1,0 +1,196 @@
+body {
+    /* padding: 0; */
+    margin: 0;
+}
+
+
+/* Hero */
+.hero {
+    height: 100vh;
+}
+.container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #164863;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 0;
+    color: #DDF2FD;
+}
+p.ptitlu {
+    margin: 0;
+    color: #DDF2FD;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.avatar img {
+    margin-left: 50px;
+    height: 300px;
+}
+
+
+/* About me */
+.about-me {
+    background-color: #9BBEC8;
+    height: 100vh;
+    text-align: center;
+    /* padding-top: 5rem; */
+}
+.about-me h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 4rem;
+    color: #427D9D;
+    padding-top: 5rem;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+.aboutme1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+.code-img {
+    height: 200px;
+    margin-right: 100px;
+}
+.code-parag-div {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.code-parag {
+    margin: 0;
+    color: #164863;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.aboutme2 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gym-img {
+    height: 200px;
+    margin-left: 100px;
+}
+.gym-parag-div {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.gym-parag {
+    margin: 0;
+    color: #164863;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+/* Contact me */
+.contact-me {
+    height: 60vh;
+    background-color: #164863;
+    text-align: center;
+}
+.contact-me h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 4rem;
+    color: #DDF2FD;
+    padding-top: 3rem;
+    padding-bottom: 100px;
+}
+.contact-me h3 {
+    color: #DDF2FD;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.email {
+    text-align: center;
+    /* width: 50%; */
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.linkedin-icon {
+    margin-right: 30px;
+}
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    h1 {
+        /* color: red; */
+        font-size: 3.5rem;
+    }
+    .container1 {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .avatar img{
+        margin-left: 0;
+        margin-bottom: 10px;
+        height: 250px;
+    }
+    .aboutme1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutme2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .gym-img-div {
+        order: -1;
+    }
+    .gym-parag-div {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .code-parag-div {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gym-img {
+        margin: 0;
+        height: 15rem;
+    }
+    .gym-parag {
+        font-size: 1.1rem;
+    }
+    .code-img {
+        margin: 0;
+        height: 15rem;
+    }
+    .code-parag {
+        font-size: 1.1rem;
+    }
+    .about-me h2 {
+        padding-top: 0;
+    }
+    .about-me {
+        height: 135vh;
+    }
+
+}
